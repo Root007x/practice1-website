@@ -1,0 +1,68 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.header-image img {
+  width: 79%;
+  margin-left: 20%;
+}
+.orange-color {
+  color: orange;
+}
+
+.header-text {
+  padding-left: 5%;
+  padding-top: 10%;
+  width: 50%;
+}
+
+.header-text p {
+  margin-bottom: 30px;
+}
+
+.order-button {
+  background-image: linear-gradient(orange, tomato);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+}
+
+.middle {
+  display: flex;
+}
+
+.middle-image img {
+  width: 50%;
+  padding-left: 25%;
+}
+
+.middle-image {
+  width: 50%;
+}
+.middle-text {
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.middle-text p {
+  margin-bottom: 30px;
+}
+
+.middle {
+  background-image: url(image/7.png);
+  background-repeat: no-repeat;
+}
+
+.contact-button {
+  background-color: orange;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
